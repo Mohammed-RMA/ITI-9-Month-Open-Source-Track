@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  font-size: 2.5rem;
+  font-weight: bold;
+  
+}
+.container div{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.first,.third{
+  background-image: url("./images/first.jpg");
+}
+.second,.fourth{
+  background-image: url("./images/second.jpg");
+}
+.first h1{
+
+  animation: firstAnimation 2s infinite linear;
+}
+.second h1{
+  animation: secondAnimation 2s infinite linear;
+}
+.third h1{
+  animation: thirdAnimation 2s infinite linear; ;
+}
+.fourth h1{
+  animation: fourthAnimation 2s infinite linear;
+}
+@keyframes firstAnimation { 
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes secondAnimation { 
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes thirdAnimation { 
+  0% {
+  transform: rotate(0deg);
+  }
+
+  100% {
+   transform: rotate(359deg);
+  }
+}
+
+@keyframes fourthAnimation { 
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(0);
+  }
+}

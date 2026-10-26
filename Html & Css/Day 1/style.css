@@ -1,0 +1,121 @@
+body {
+  background-color: rgb(244, 238, 226);
+}
+
+.nav {
+  background-color: rgba(47, 7, 7, 0.655);
+  color: white;
+  padding-left: 10px;
+  margin: 0px !important;
+}
+.nav p {
+  color: wheat;
+}
+.container section {
+  margin-top: 20px;
+}
+/* ####################sectons######################### */
+
+section {
+  background-color: white;
+  width: 50%;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid rgb(243, 243, 243);
+  margin: auto;
+}
+section h2 {
+  border-bottom: 3px solid rgb(158, 103, 2);
+  padding-bottom: 10px;
+  color: rgba(47, 7, 7, 0.655);
+}
+section h3 {
+  color: rgb(158, 103, 2);
+}
+section img {
+  width: 100%;
+  /* height: 50%; */
+  border-radius: 10px;
+  margin: 10px auto;
+}
+/* ####################directions######################### */
+.directions li {
+  margin: 10px 0px;
+  padding: 5px;
+}
+.directions li span {
+  color: rgba(47, 7, 7, 0.655);
+}
+.directions dt {
+  color: rgba(47, 7, 7, 0.655);
+  font-weight: bold;
+}
+/* ####################table######################### */
+table {
+  width: 100%;
+  border-style: none;
+  text-align: center;
+}
+table *{
+    height: 40px;
+}
+table th {
+  background-color: rgb(158, 103, 2);
+  color: white;
+  padding: 10px;
+}
+.nutritionTable p {
+  color: rgba(47, 7, 7, 0.655);
+}
+
+tr:nth-child(even){background-color:wheat;}
+
+
+/* ####################form######################### */
+.recipeForm p {
+  font-weight: bold;
+}
+.recipeForm fieldset {
+  border: 1px solid rgb(158, 103, 2);
+  border-radius: 5px;
+}
+.recipeForm fieldset legend {
+  color: rgb(158, 103, 2);
+  font-weight: bold;
+}
+.recipeForm fieldset input {
+  padding: 5px;
+  margin: 5px 0px;
+  border-radius: 5px;
+  border: 1px solid rgb(158, 103, 2);
+}
+.inputChild input,select,textarea {
+  margin-left: 200px !important;
+}
+.inputParent label {
+ display: inline-block;
+  width: 200px;
+}
+
+.btns * {
+  background-color: rgb(158, 103, 2);
+  width: 100px;
+  height: 30px;
+  color: white;
+  padding: 5px 10px;
+  margin: 10px 5px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+}
+.btns .btn {
+  background-color: white;
+  width: 100px;
+  height: 30px;
+  color: rgb(158, 103, 2);
+  padding: 5px 10px;
+  margin: 10px 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(158, 103, 2);
+}
+
