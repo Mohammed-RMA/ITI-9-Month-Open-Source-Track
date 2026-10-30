@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1793377913 source:d:\documents\iti\oop\day 2\task1stack\src\mystack.cpp
+	"MyStack.h"
+	<bits/stdc++.h>
+
+1793377833 d:\documents\iti\oop\day 2\task1stack\include\mystack.h
+
+1793377982 source:d:\documents\iti\oop\day 2\task1\main.cpp
+	<bits/stdc++.h>
+	"MyStack.h"
+
+1793377833 d:\documents\iti\oop\day 2\task1\include\mystack.h
+
+1793377913 source:d:\documents\iti\oop\day 2\task1\src\mystack.cpp
+	"MyStack.h"
+	<bits/stdc++.h>
+
