@@ -1,0 +1,151 @@
+.menu-btn {
+  display: none;
+}
+@media (max-width: 900px) {
+  .header ul {
+    width: 70%;
+  }
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #service-4 {
+    grid-column: span 2;
+  }
+  #service-5 {
+    grid-column: auto;
+  }
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .about,
+  .projects {
+    width: 85%;
+  }
+  .contact {
+    width: 70%;
+  }
+
+  .upper-footer {
+    gap: 15px;
+    font-size: 1.5rem;
+  }
+  .upper-footer button {
+    font-size: 15px;
+  }
+}
+/* ############################################################################### */
+@media (max-width: 600px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .header ul,
+  .action-btns {
+    display: none;
+  }
+  .menu-btn {
+    display: block;
+    background: transparent;
+    border: none;
+  }
+  .menu-btn img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .hero {
+    height: auto;
+    min-height: 80vh;
+    padding: 30px 15px;
+  }
+  .hero-text {
+    width: 100%;
+  }
+  .hero-image {
+    max-width: 60%;
+  }
+  .hero-image img {
+    width: 100%;
+  }
+
+  .about,
+  .services,
+  .projects,
+  .contact {
+    width: 90%;
+  }
+  .services-grid,
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+  #service-4 {
+    grid-column: auto;
+    flex-direction: column;
+  }
+  #service-5 {
+    grid-column: auto;
+  }
+  .service-image img {
+    width: 100%;
+  }
+  .projects-btns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  .upper-footer {
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    gap: 10px;
+    font-size: 1rem;
+  }
+  .upper-footer h2 {
+    font-size: 1.2rem;
+  }
+  .upper-footer h2 pre {
+    margin: 0;
+  }
+  .upper-footer button {
+    max-width: 60%;
+    min-width: 0;
+    padding:10px;
+    font-size: 10px;
+    flex-shrink: 0;
+  }
+  .upper-footer button span {
+    margin: 0 4px;
+  }
+  .upper-footer button img {
+    width: 20px;
+  }
+
+  .lower-footer {
+    flex-direction: column-reverse;
+    gap: 30px;
+    margin: 30px 10px;
+    text-align: center;
+  }
+  .icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  .icons a {
+    border: 2px solid #45494c;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icons img {
+    width: 20px;
+  }
+  .lower-footer p {
+    font-size: 10px;
+  }
+}
